@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./GUESS.CSS">
+</head>
+<body>
+    <div id="main">
+            <div id="box1">
+                <div><h2>Guess the number from 1 to 100</h2></div>
+                <div id="guess" >Guess it</div>
+                <div id="box2">
+                    <form  class="form">
+                        <input  class="num" type="number" id="number" name="val">
+                    
+                    <button class="btn btn-dark" id="check_btn"  onclick="check()">Check</button>
+                    <button class="btn1" id="check_btn"  onclick="reset()">Reset</button>
+                </form>
+                </div>
+                <div id="chances">Chances Used :0</div>
+            </div>
+    </div>
+    <script src="./GUESS.JS"></script>
+</body>
+</html>
